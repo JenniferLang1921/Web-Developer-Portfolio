@@ -29,10 +29,10 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About
-                        <span class="sr-only">(current)</span>
-                    </a>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -51,9 +51,25 @@
         </div>
     </nav>
 
+    <!--Video Jumbotron-->
+    
+    <div class="jumbotron">
+        <video id="video-background" preload muted autoplay loop>
+          <source src="assets/Notebook_Rainbow/Notebook_Rainbow.mp4" type="video/mp4">
+          <source src="assets/Notebook_Rainbow/Notebook_Rainbow.webm" type="video/webm">
+        </video>
+        <div class="container">
+          Hello World
+        </div>
+      </div>
+    
+    
+
+
+
     <!--About-->
     <div class="jumbotron jumbotron-fluid text-center">
-        <div class="container">
+        <div class="container" id="about">
             <h1 class="display-4">Jennifer Lang</h1>
             <img class="profile rounded-circle img-responsive" src="assets/images/jenniferlang2.png" alt="Jennifer Lang" width="250"
                 height="250">
@@ -63,13 +79,14 @@
     <!--Portfolio-->
 
 
-    <h1 id="portfolio">Portfolio</h1>
-    <div class="container ">
+   
+    <div class="container">
+            <h1 id="portfolio">Portfolio</h1>
         <div class="d-flex align-content-start flex-wrap">
 
             <!--Eat-Da-Burger link-->
 
-            <div>
+            <div class="pic">
                 <a href="https://salty-ravine-33985.herokuapp.com/">
                     <img class="portfolioImg1" src="assets/images/hamburger.png" alt="eat-da-burger" width="264" height="200">
                 </a>
@@ -80,7 +97,7 @@
 
             <!--Music Concierge link-->
 
-            <div>
+            <div class="pic">
                 <a href="https://jenniferlang1921.github.io/Music-Concierge/">
                     <img class="portfolioImg1" src="assets/images/musicconcierge.png" alt="Music Concierge" width="264" height="200">
                 </a>
@@ -129,7 +146,7 @@
 
             <!--Baby Giphy-->
 
-            <div class="p-2 pic">
+            <div class="pic">
                 <a href="https://jenniferlang1921.github.io/baby-gif/">
                     <img class="portfolioImg1" src="assets/images/babygif.PNG" alt="baby giphy app" width="264" height="200">
                 </a>
@@ -139,7 +156,7 @@
             </div>
 
             <!--Train Schedule-->
-            <div class="p-2 pic">
+            <div class="pic">
                 <a href="https://jenniferlang1921.github.io/train-schedule/">
                     <img class="portfolioImg1" src="assets/images/train.jpg" alt="train schedule" width="264" height="200">
                 </a>
@@ -150,7 +167,7 @@
 
             <!--Bamazon link-->
 
-            <div class="p-2 pic">
+            <div class="pic">
                 <a href="https://github.com/JenniferLang1921/Bamazon">
                     <img class="portfolioImg1" src="assets/images/bamazon.png" alt="bamazon" width="264" height="200">
                 </a>
@@ -179,20 +196,39 @@
     </div>
 
     <!--Resume-->
-    <div>
+    <div class="container">
         <h1 id="resume">Resume</h1>
-    </div>
+
+
+        <h2>Education</h2>
+<p>University of Kansas | Javascript Full Stack Web Development Certificate | July 2018 </p>
+
+University of Kansas | Bachelor of Music Education 
+Elementary Music, Band, Orchestra, and Choir;  GPA 3.64  Earned 20 graduate credits in the education field
+
+
+    <h2>Relevant Experience:</h2>
+<p>Administrative Specialist | KS Insurance Department and KS Securities Commissioner | Jan 2017 to Current
+Finance Writer, Social Media, Graphic Design, Event Planning, Investor Education, Editing, Public Speaking, Event Planning, Adobe Illustrator, Series 63 Finance Exam</p>
+
+<p>Real Estate Marketing | At Home Kansas | 2007 to 2009
+Online marketing, Blogging, Social media, Website updates, HTML, SEO Marketing, Background Searches</p>
+
+<p>Other Jobs: Business Owner, Accountant, Music Teacher, Musical Director, Credit Bureau Manager/Investigator</p>
     <!--Skills-->
     <div>
         <h1 id="skills">Skills</h1>
+
+        <p>HTML5, CSS3, JavaScript, Bootstrap, Node.js, MySQL, jQuery, API, Express, Handlebars 
+        Adobe Illustrator	SEO Marketing		Teaching
+Microsoft Office		Writing			Public Speaking	           		
+Finance			Graphic Design		Communication</p>
     </div>
+
+</div>
     <!--Contact-->
-    <div>
-        <h1 id="contact">Contact</h1>
-
-
-        <h2>Connect with Me</h2>
-
+    <div class="container">
+        <h1 id="contact">Connect with Me</h1>
 
         <!--Email Link-->
         <a href="mailto:jenniferlang1921@gmail.com">
@@ -214,11 +250,11 @@
         <a href="https://www.linkedin.com/in/jennifer-lang-5017aa126">
             <img src="assets/images/if_linkedin_328860.png" alt="linkedin link" class="social"> </a>
     </div>
-    </div>
+    
 
 
     <!--Footer-->
-    <footer class="container text-center footer">
+    <footer class="text-center footer">
 
         <p>© Copyright 2018 Jennifer Lang</p>
     </footer>

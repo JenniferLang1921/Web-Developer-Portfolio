@@ -1,0 +1,36 @@
+.jumbotron{
+    position: relative;
+    z-index:-101;
+  }
+  
+  #video-background { 
+    
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+      width:100%;
+  }
+
+
+
+
+
+.footer { /*torn paper border*/
+    height:100px;
+    position:relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-size:cover;
+    opacity:0.8;
+    border-style: solid; 
+    border-width: 40px 40px 40px; 
+       -moz-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
+    -webkit-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
+         -o-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
+            border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat;
+}
