@@ -1,13 +1,18 @@
+body {
+  background-color: #feffe4; 
+}
+
+
 #intro {
     background:  url(/assets/images/webdeveloper.png);
-	background-size: cover, cover;
-	background-position: center, center;
+	background-size: cover;
+	background-position: center;
 	height: 100vh;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
     position: relative;
-    z-index:-101;
+    z-index:-1;
   }
 
   #mainnav {
@@ -49,6 +54,10 @@
   #mainnav ul li a:hover {
     color: #000;
     background: #aaa;
+  }
+
+  #about {
+    background-color: #feffe4 !important;
   }
 
 .footer { /*torn paper border*/
