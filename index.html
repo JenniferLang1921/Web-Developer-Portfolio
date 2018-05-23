@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Jennifer Lang</title>
+    <title>Jennifer Lang | Web Developer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,8 +18,8 @@
 
     <!--NavBar-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="index.html">Jennifer Lang</a>
+    <nav id="mainnav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a id="name" class="navbar-brand" href="index.html">Jennifer Lang</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                
+
 
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -51,38 +51,55 @@
         </div>
     </nav>
 
-    <!--Video Jumbotron-->
-    
-    <div class="jumbotron">
-        <video id="video-background" preload muted autoplay loop>
-          <source src="assets/Notebook_Rainbow/Notebook_Rainbow.mp4" type="video/mp4">
-          <source src="assets/Notebook_Rainbow/Notebook_Rainbow.webm" type="video/webm">
-        </video>
-        <div class="container">
-          Hello World
-        </div>
-      </div>
-    
-    
+    <!--Intro-->
+
+    <div id="intro" class="jumbotron">
+
+        
+    </div>
+
+
 
 
 
     <!--About-->
-    <div class="jumbotron jumbotron-fluid text-center">
+    <div class="jumbotron text-center">
         <div class="container" id="about">
-            <h1 class="display-4">Jennifer Lang</h1>
-            <img class="profile rounded-circle img-responsive" src="assets/images/jenniferlang2.png" alt="Jennifer Lang" width="250"
-                height="250">
-            <p class="lead">Web Developer and Designer</p>
+            <div class="row">
+
+                <div class="col">
+                        <h1 class="display-4">Jennifer Lang</h1>
+                    <p class="lead">Web Developer and Designer</p>
+                </div>
+
+                <div class="col">
+                    
+                    <img class="profile rounded-circle img-responsive" src="assets/images/jenniferlang2.png" alt="Jennifer Lang" width="250"
+                        height="250">
+
+                </div>
+
+            </div>
         </div>
     </div>
     <!--Portfolio-->
 
 
-   
+
     <div class="container">
-            <h1 id="portfolio">Portfolio</h1>
+        <h1 id="portfolio">Portfolio</h1>
         <div class="d-flex align-content-start flex-wrap">
+
+            <!--BingeWatcher link-->
+
+            <div class="pic">
+                <a href="https://binge-watcher.herokuapp.com/">
+                    <img class="portfolioImg1" src="assets/images/bingewatcher.png" alt="bingewatcher" width="264" height="200">
+                </a>
+                <a href="https://binge-watcher.herokuapp.com/">
+                    <h3>BingeWatcher</h3>
+                </a>
+            </div>
 
             <!--Eat-Da-Burger link-->
 
@@ -201,31 +218,30 @@
 
 
         <h2>Education</h2>
-<p>University of Kansas | Javascript Full Stack Web Development Certificate | July 2018 </p>
+        <p>University of Kansas | Javascript Full Stack Web Development Certificate | July 2018 </p>
 
-University of Kansas | Bachelor of Music Education 
-Elementary Music, Band, Orchestra, and Choir;  GPA 3.64  Earned 20 graduate credits in the education field
+        University of Kansas | Bachelor of Music Education Elementary Music, Band, Orchestra, and Choir; GPA 3.64 Earned 20 graduate
+        credits in the education field
 
 
-    <h2>Relevant Experience:</h2>
-<p>Administrative Specialist | KS Insurance Department and KS Securities Commissioner | Jan 2017 to Current
-Finance Writer, Social Media, Graphic Design, Event Planning, Investor Education, Editing, Public Speaking, Event Planning, Adobe Illustrator, Series 63 Finance Exam</p>
+        <h2>Relevant Experience:</h2>
+        <p>Administrative Specialist | KS Insurance Department and KS Securities Commissioner | Jan 2017 to Current Finance
+            Writer, Social Media, Graphic Design, Event Planning, Investor Education, Editing, Public Speaking, Event Planning,
+            Adobe Illustrator, Series 63 Finance Exam</p>
 
-<p>Real Estate Marketing | At Home Kansas | 2007 to 2009
-Online marketing, Blogging, Social media, Website updates, HTML, SEO Marketing, Background Searches</p>
+        <p>Real Estate Marketing | At Home Kansas | 2007 to 2009 Online marketing, Blogging, Social media, Website updates,
+            HTML, SEO Marketing, Background Searches</p>
 
-<p>Other Jobs: Business Owner, Accountant, Music Teacher, Musical Director, Credit Bureau Manager/Investigator</p>
-    <!--Skills-->
-    <div>
-        <h1 id="skills">Skills</h1>
+        <p>Other Jobs: Business Owner, Accountant, Music Teacher, Musical Director, Credit Bureau Manager/Investigator</p>
+        <!--Skills-->
+        <div>
+            <h1 id="skills">Skills</h1>
 
-        <p>HTML5, CSS3, JavaScript, Bootstrap, Node.js, MySQL, jQuery, API, Express, Handlebars 
-        Adobe Illustrator	SEO Marketing		Teaching
-Microsoft Office		Writing			Public Speaking	           		
-Finance			Graphic Design		Communication</p>
+            <p>HTML5, CSS3, JavaScript, Bootstrap, Node.js, MySQL, jQuery, API, Express, Handlebars Adobe Illustrator SEO Marketing
+                Teaching Microsoft Office Writing Public Speaking Finance Graphic Design Communication</p>
+        </div>
+
     </div>
-
-</div>
     <!--Contact-->
     <div class="container">
         <h1 id="contact">Connect with Me</h1>
@@ -250,7 +266,7 @@ Finance			Graphic Design		Communication</p>
         <a href="https://www.linkedin.com/in/jennifer-lang-5017aa126">
             <img src="assets/images/if_linkedin_328860.png" alt="linkedin link" class="social"> </a>
     </div>
-    
+
 
 
     <!--Footer-->
