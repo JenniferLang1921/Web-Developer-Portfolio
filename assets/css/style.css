@@ -4,7 +4,7 @@ body {
 
 
 #intro {
-    background-image:  url(/assets/images/webdeveloper.png);
+    background-image:  url("/assets/images/purplecrystal.png");
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
