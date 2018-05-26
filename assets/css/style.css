@@ -1,6 +1,6 @@
 
 
-#intro {
+/* #intro {
 
 background: url("../images/webdeveloper12.png");
 	background-size: cover;
@@ -10,19 +10,7 @@ background: url("../images/webdeveloper12.png");
 	justify-content: center;
 	align-items: center;
 }
-/*
-#intro {
-  background-image: url("/assets/images/webdeveloper.png");
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-   
-    
-  }
-  */
+*/
 
   #mainnav {
     background: rgb(0,0,0,0.7) !important;
@@ -69,6 +57,10 @@ background: url("../images/webdeveloper12.png");
     background-color: #feffe4 !important;
   }
 
+  img {
+    margin-top: 140px;
+  }
+
 .footer { /*torn paper border*/
     height:100px;
     position:relative;
@@ -85,7 +77,4 @@ background: url("../images/webdeveloper12.png");
          -o-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
             border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat;
 }
-
-.overlay {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent);
-}
+.bg-semitransparent { background-color: rgba(60,60,60,0.6); }

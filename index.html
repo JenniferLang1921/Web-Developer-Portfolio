@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -52,14 +53,32 @@
     </nav>
 
     <!--Intro-->
-
-    <div id="intro">
-
-
-    </div>
-
-
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/images/webdeveloper12.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/webdeveloper2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/coffeegirl.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
 
     <!--About-->
@@ -72,12 +91,15 @@
                     <p class="lead">Web Developer and Designer</p>
                     <p>Hello, my name is Jennifer Lang. I create simple, beautiful, and functional websites. When I'm not coding,
                         you'll find me painting, reading a book, or exploring the great outdoors.</p>
-                </div>
+                        <p>I decided to be a web developer because I thought I would get the chance to be creative, do research, and learn new things continually.  I used to be a music teacher, but decided against it because I like creating on my own more than I like being in charge of large groups of people.  I took some time off after teaching to raise my kids, and had a part-time job doing online marketing for a real estate company.  My boss was a computer science major and trained me in how to do online marketing, and from there I began to explore the internet.  I’ve had many blogs, and discovered I liked designing them just as much as writing them.  Building and creating web pages is exciting for me.  I love that technology is always changing so there will always be something new for me to learn.   </p>
+                
+                
+                    </div>
 
                 <div class="col">
 
-                    <img class="profile rounded-circle img-responsive" src="assets/images/jenniferlang2.png" alt="Jennifer Lang" width="250"
-                        height="250">
+                    <img class="profile rounded-circle img-responsive" src="assets/images/jenniferlang2.png" alt="Jennifer Lang" width="300"
+                        height="300">
 
                 </div>
 
@@ -87,6 +109,10 @@
     <!--Portfolio-->
 
 
+    
+
+
+
 
     <div class="container">
         <h1 id="portfolio">Portfolio</h1>
@@ -94,9 +120,38 @@
 
             <!--BingeWatcher link-->
 
+           <!--test-->
+            
+<div card-deck>
+
+
+        <div class="card-img-top">
+                <img src="assets/images/screenshot.png" alt="Ted Talks Article Scraper" class="img-fluid" style="" />
+                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                    <div class="card-text border-0 bg-semitransparent text-center">
+                        <a href="https://ted-talks-ideas-article-scrape.herokuapp.com/articles"></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-img-top">
+                <img src="assets/images/bingewatcher.png" alt="Angel #1" class="img-fluid" style="" />
+                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                    <div class="card-text border-0 bg-semitransparent text-center">
+                        <a href="https://binge-watcher.herokuapp.com/"></a>
+                    </div>
+                </div>
+            </div>
+
+
+           
+           
+        
+
             <div class="pic">
                 <a href="https://binge-watcher.herokuapp.com/">
-                    <img class="portfolioImg1" src="assets/images/bingewatcher.png" alt="bingewatcher" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/bingewatcher.png" alt="bingewatcher" width="350" height="400">
                 </a>
                 <a href="https://binge-watcher.herokuapp.com/">
                     <h3>BingeWatcher</h3>
@@ -107,7 +162,7 @@
 
             <div class="pic">
                 <a href="https://salty-ravine-33985.herokuapp.com/">
-                    <img class="portfolioImg1" src="assets/images/hamburger.png" alt="eat-da-burger" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/hamburger.png" alt="eat-da-burger" width="350" height="400">
                 </a>
                 <a href="https://salty-ravine-33985.herokuapp.com/">
                     <h3>Eat-Da-Burger!</h3>
@@ -118,7 +173,7 @@
 
             <div class="pic">
                 <a href="https://jenniferlang1921.github.io/Music-Concierge/">
-                    <img class="portfolioImg1" src="assets/images/musicconcierge.png" alt="Music Concierge" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/musicconcierge.png" alt="Music Concierge" width="350" height="400">
                 </a>
                 <a href="https://jenniferlang1921.github.io/Music-Concierge/">
                     <h3>Music Concierge</h3>
@@ -131,7 +186,7 @@
 
             <div class="pic">
                 <a href="https://jenniferlang1921.github.io/crystals-collector-game/">
-                    <img class="portfolioImg1" src="assets/images/purplecrystal.png" alt="purple crystal" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/purplecrystal.png" alt="purple crystal" width="350" height="400">
                 </a>
                 <a href="https://jenniferlang1921.github.io/crystals-collector-game/">
                     <h3>Crystal Collector Game</h3>
@@ -142,7 +197,7 @@
 
             <div class="pic">
                 <a href="https://jenniferlang1921.github.io/TriviaGame/">
-                    <img class="portfolioImg1" src="assets/images/triviagame.png" alt="stone pharaoh" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/triviagame.png" alt="stone pharaoh" width="350" height="400">
                 </a>
                 <a href="https://jenniferlang1921.github.io/TriviaGame/">
                     <h3>Trivia Game</h3>
@@ -156,7 +211,7 @@
 
             <div class="pic">
                 <a href="https://jenniferlang1921.github.io/Psychic-Game/">
-                    <img class="portfolioImg1" src="assets/images/psychic.jpg" alt="psychic game" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/psychic.jpg" alt="psychic game" width="350" height="400">
                 </a>
                 <a href="https://jenniferlang1921.github.io/Psychic-Game/">
                     <h3>Psychic Game</h3>
@@ -167,7 +222,7 @@
 
             <div class="pic">
                 <a href="https://jenniferlang1921.github.io/baby-gif/">
-                    <img class="portfolioImg1" src="assets/images/babygif.PNG" alt="baby giphy app" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/babygif.PNG" alt="baby giphy app" width="350" height="400">
                 </a>
                 <a href="https://jenniferlang1921.github.io/baby-gif/">
                     <h3>Baby Gif App</h3>
@@ -177,7 +232,7 @@
             <!--Train Schedule-->
             <div class="pic">
                 <a href="https://jenniferlang1921.github.io/train-schedule/">
-                    <img class="portfolioImg1" src="assets/images/train.jpg" alt="train schedule" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/train.jpg" alt="train schedule" width="350" height="400">
                 </a>
                 <a href="https://jenniferlang1921.github.io/train-schedule/">
                     <h3>Train Schedule</h3>
@@ -188,7 +243,7 @@
 
             <div class="pic">
                 <a href="https://github.com/JenniferLang1921/Bamazon">
-                    <img class="portfolioImg1" src="assets/images/bamazon.png" alt="bamazon" width="264" height="200">
+                    <img class="portfolioImg1" src="assets/images/bamazon.png" alt="bamazon" width="350" height="400">
                 </a>
                 <a href="https://github.com/JenniferLang1921/Bamazon">
                     <h3>Bamazon Node.js App</h3>
@@ -204,7 +259,7 @@
 
             <div class="p-2 pic">
                 <a href="https://pacific-gorge-51083.herokuapp.com/">
-                    <img class="portfolioImg1" src="assets\images\friends.png" alt="bamazon" width="264" height="200">
+                    <img class="portfolioImg1" src="assets\images\friends.png" alt="bamazon" width="350" height="400">
                 </a>
                 <a href="https://pacific-gorge-51083.herokuapp.com/">
                     <h3>Friend Finder</h3>
@@ -278,7 +333,10 @@
     </footer>
 
 
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
 </body>
 
