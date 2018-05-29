@@ -2,83 +2,64 @@
 <html lang="en">
 
 <head>
+    
+     <!-- Favicon -->
     <link rel="icon" href="./images/mclogo.png">
     <title>Jennifer Lang | Web Developer</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
+     <!-- View Port Size -->
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Materialize - Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+     <!-- Materialize - Icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="assets/style/style.css">
+     </head>
 
 <body data-spy="scroll" data-target="#navbar1" data-offset="70">
 
     <!--NavBar-->
 
-    <nav id="mainnav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a id="name" class="navbar-brand" href="index.html">Jennifer Lang</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#resume">Resume</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+    <div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Jennifer Lang</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </nav>
+      </nav>
+    </div>
+    
+      
+              
 
+
+    
     <!--Intro-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="./assets/images/webdeveloper12.png" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./assets/images/webdeveloper2.png" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./assets/images/coffeegirl.png" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/friends.png"></div>
       </div>
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Parallax</h2>
+          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/bamazon.png"></div>
+      </div>
+
+
+
+
+
 
 
     <!--About-->
@@ -108,166 +89,117 @@
     </div>
     <!--Portfolio-->
 
-
-    
-
-
-
-
     <div class="container">
-        <h1 id="portfolio">Portfolio</h1>
-        <div class="d-flex align-content-start flex-wrap">
-
-            <!--BingeWatcher link-->
-
-           <!--test-->
-            
-<div card-deck>
-
-
-        <div class="card-img-top">
-                <img src="assets/images/screenshot.png" alt="Ted Talks Article Scraper" class="img-fluid" style="" />
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
-                    <div class="card-text border-0 bg-semitransparent text-center">
-                        <a href="https://ted-talks-ideas-article-scrape.herokuapp.com/articles"></a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card-img-top">
-                <img src="assets/images/bingewatcher.png" alt="Angel #1" class="img-fluid" style="" />
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
-                    <div class="card-text border-0 bg-semitransparent text-center">
-                        <a href="https://binge-watcher.herokuapp.com/"></a>
-                    </div>
-                </div>
-            </div>
-
-
-           
-           
-        
-
-            <div class="pic">
-                <a href="https://binge-watcher.herokuapp.com/">
-                    <img class="portfolioImg1" src="assets/images/bingewatcher.png" alt="bingewatcher" width="350" height="400">
-                </a>
-                <a href="https://binge-watcher.herokuapp.com/">
-                    <h3>BingeWatcher</h3>
-                </a>
-            </div>
-
-            <!--Eat-Da-Burger link-->
-
-            <div class="pic">
-                <a href="https://salty-ravine-33985.herokuapp.com/">
-                    <img class="portfolioImg1" src="assets/images/hamburger.png" alt="eat-da-burger" width="350" height="400">
-                </a>
-                <a href="https://salty-ravine-33985.herokuapp.com/">
-                    <h3>Eat-Da-Burger!</h3>
-                </a>
-            </div>
-
-            <!--Music Concierge link-->
-
-            <div class="pic">
-                <a href="https://jenniferlang1921.github.io/Music-Concierge/">
-                    <img class="portfolioImg1" src="assets/images/musicconcierge.png" alt="Music Concierge" width="350" height="400">
-                </a>
-                <a href="https://jenniferlang1921.github.io/Music-Concierge/">
-                    <h3>Music Concierge</h3>
-                </a>
-            </div>
-
-
-
-            <!--Crystals game link-->
-
-            <div class="pic">
-                <a href="https://jenniferlang1921.github.io/crystals-collector-game/">
-                    <img class="portfolioImg1" src="assets/images/purplecrystal.png" alt="purple crystal" width="350" height="400">
-                </a>
-                <a href="https://jenniferlang1921.github.io/crystals-collector-game/">
-                    <h3>Crystal Collector Game</h3>
-                </a>
-            </div>
-
-            <!--trivia game link-->
-
-            <div class="pic">
-                <a href="https://jenniferlang1921.github.io/TriviaGame/">
-                    <img class="portfolioImg1" src="assets/images/triviagame.png" alt="stone pharaoh" width="350" height="400">
-                </a>
-                <a href="https://jenniferlang1921.github.io/TriviaGame/">
-                    <h3>Trivia Game</h3>
-                </a>
-            </div>
-
-
-
-
-            <!--psychic game link-->
-
-            <div class="pic">
-                <a href="https://jenniferlang1921.github.io/Psychic-Game/">
-                    <img class="portfolioImg1" src="assets/images/psychic.jpg" alt="psychic game" width="350" height="400">
-                </a>
-                <a href="https://jenniferlang1921.github.io/Psychic-Game/">
-                    <h3>Psychic Game</h3>
-                </a>
-            </div>
-
-            <!--Baby Giphy-->
-
-            <div class="pic">
-                <a href="https://jenniferlang1921.github.io/baby-gif/">
-                    <img class="portfolioImg1" src="assets/images/babygif.PNG" alt="baby giphy app" width="350" height="400">
-                </a>
-                <a href="https://jenniferlang1921.github.io/baby-gif/">
-                    <h3>Baby Gif App</h3>
-                </a>
-            </div>
-
-            <!--Train Schedule-->
-            <div class="pic">
-                <a href="https://jenniferlang1921.github.io/train-schedule/">
-                    <img class="portfolioImg1" src="assets/images/train.jpg" alt="train schedule" width="350" height="400">
-                </a>
-                <a href="https://jenniferlang1921.github.io/train-schedule/">
-                    <h3>Train Schedule</h3>
-                </a>
-            </div>
-
-            <!--Bamazon link-->
-
-            <div class="pic">
-                <a href="https://github.com/JenniferLang1921/Bamazon">
-                    <img class="portfolioImg1" src="assets/images/bamazon.png" alt="bamazon" width="350" height="400">
-                </a>
-                <a href="https://github.com/JenniferLang1921/Bamazon">
-                    <h3>Bamazon Node.js App</h3>
-                </a>
-            </div>
-
-
-
-
-
-
-            <!--Friend Finder-->
-
-            <div class="p-2 pic">
-                <a href="https://pacific-gorge-51083.herokuapp.com/">
-                    <img class="portfolioImg1" src="assets\images\friends.png" alt="bamazon" width="350" height="400">
-                </a>
-                <a href="https://pacific-gorge-51083.herokuapp.com/">
-                    <h3>Friend Finder</h3>
-                </a>
-            </div>
-
+            <div class="row">
+    <!--Ted Talks Website-->
+    <div class="col s4">
+    <div class="card medium hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/ted-talks.png" >
         </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Ted Talks Mongo Web Scraper<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://ted-talks-ideas-article-scrape.herokuapp.com/articles">website</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
     </div>
+
+      <!--Binge Watcher Website-->
+      <div class="col s4">
+      <div class="card medium hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/binge-watcher.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Binge Watcher<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://binge-watcher.herokuapp.com/">website</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+
+      
+      
+      <!--Music Concierge Website-->
+      <div class="col s4">
+      <div class="card medium hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/musicconcierge.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Music Concierge<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://jenniferlang1921.github.io/Music-Concierge/">website</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+     </div>
+     <div class="row">
+      <!--Eat-Da-Burger Website-->
+      <div class="col s4">
+      <div class="card medium hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/hamburger.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Eat-Da-Burger<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://salty-ravine-33985.herokuapp.com/">website</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+
+
+      <!--Trivia Game Website-->
+      <div class="col s4">
+      <div class="card medium hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/triviagame.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Trivia Game<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://jenniferlang1921.github.io/TriviaGame/">website</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+
+      <!--Friend Finder Website-->
+      <div class="col s4">
+      <div class="card medium hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets\images\friends.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Friend Finder<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://pacific-gorge-51083.herokuapp.com/">website</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+
+      </div>
+      </div>
+           
 
     <!--Resume-->
     <div class="container">
@@ -323,20 +255,45 @@
         <a href="https://www.linkedin.com/in/jennifer-lang-5017aa126">
             <img src="assets/images/if_linkedin_328860.png" alt="linkedin link" class="social"> </a>
     </div>
-
+</div>
 
 
     <!--Footer-->
-    <footer class="text-center footer">
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text" id="connect">Connect with Me</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © Copyright 2018 Jennifer Lang
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
 
-        <p>© Copyright 2018 Jennifer Lang</p>
-    </footer>
 
+   <!-- Link in jQuery CDN -->
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
-   
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <!-- Materialize - Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+   <!-- Basic Page JavaScript for Repsonsiveness -->
+   <script type="text/javascript" src="assets/js/app.js"></script>
     
 </body>
 
