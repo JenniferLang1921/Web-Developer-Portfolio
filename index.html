@@ -14,10 +14,10 @@
      <!-- Materialize - Icons -->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!-- Custom CSS -->
-     <link rel="stylesheet" href="assets/style/style.css">
+     <link rel="stylesheet" href="assets/css/style.css">
      </head>
 
-<body data-spy="scroll" data-target="#navbar1" data-offset="70">
+<body data-spy="scroll" data-target="#navbar1">
 
     <!--NavBar-->
 
@@ -34,38 +34,21 @@
           </ul>
         </div>
       </nav>
-    </div>
-    
-      
-              
+    </div>       
 
-
-    
     <!--Intro-->
 
     <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/friends.png"></div>
+        <div class="parallax"><img src="assets/images/stairs.jpg"></div>
       </div>
       <div class="section white">
-        <div class="row container">
-          <h2 class="header">Parallax</h2>
-          <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-        </div>
-      </div>
-      <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/bamazon.png"></div>
-      </div>
-
-
-
-
-
-
-
-    <!--About-->
-    <div class="jumbotron text-center" id="about">
-        <div class="container">
-            <div class="row">
+        <div class="row" id="about">
+          <h2 class="header">About</h2>
+          <p class="grey-text text-darken-3 lighten-3">
+            
+            <!--About-->
+    <div class="text-center" id="about">
+        
 
                 <div class="col">
                     <h1 class="display-4">Jennifer Lang</h1>
@@ -82,16 +65,31 @@
                     <img class="profile rounded-circle img-responsive" src="assets/images/jenniferlang2.png" alt="Jennifer Lang" width="300"
                         height="300">
 
-                </div>
-
-            </div>
+               
         </div>
     </div>
+            
+            
+           
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/bamazon.png"></div>
+      </div>
+
+
+
+
+
+
+
+    
     <!--Portfolio-->
 
-    <div class="container">
+    <div class="container" id ="portfolio">
             <div class="row">
     <!--Ted Talks Website-->
+    <h2>Portfolio</h2>
     <div class="col s4">
     <div class="card medium hoverable">
         <div class="card-image waves-effect waves-block waves-light">
@@ -149,7 +147,7 @@
       <div class="col s4">
       <div class="card medium hoverable">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="assets/images/hamburger.png">
+          <img class="activator" src="assets/images/eatdaburger.png">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Eat-Da-Burger<i class="material-icons right">more_vert</i></span>
@@ -204,6 +202,8 @@
     <!--Resume-->
     <div class="container">
         <h1 id="resume">Resume</h1>
+
+        <a href="/images/resume.pdf" class="waves-effect waves-light btn" download><i class="material-icons right">file_download</i>Download Resume</a>
 
 
         <h2>Education</h2>
@@ -268,6 +268,8 @@
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Links</h5>
+
+              
               <ul>
                 <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
                 <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>

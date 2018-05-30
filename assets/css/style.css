@@ -1,5 +1,10 @@
 
 
+  .parallax-container {
+    height: "250vh";
+  }
+
+
 /* #intro {
 
 background: url("../images/webdeveloper12.png");
@@ -57,9 +62,7 @@ background: url("../images/webdeveloper12.png");
     background-color: #feffe4 !important;
   }
 
-  img {
-    margin-top: 140px;
-  }
+  
 
 .footer { /*torn paper border*/
     height:100px;
