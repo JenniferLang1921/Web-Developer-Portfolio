@@ -1,83 +1,91 @@
+/*COLOR PALETTE
+#F5F5F5  white smoke
+#0F2645  navy
+#C2C2C2  grey
+#FFFFFF  white
+#0079FA  Egyptian blue
+green and brown in photos
+*/
+/*GOOGLE FONTS
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Prata', serif;
+*/
 
 
-  .parallax-container {
-    height: "250vh";
+.parallax-container {
+ height: "250vh";
+  
   }
 
 
-/* #intro {
-
-background: url("../images/webdeveloper12.png");
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-}
-*/
-
-  #mainnav {
-    background: rgb(0,0,0,0.7) !important;
+  nav {
+    
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .05em;
-  }
-
-  #name {
-      color: white;
-  }
-
-  #mainnav #menu {
-    display: none;
-    padding: .8em 1.5em;
     cursor: pointer;
+    
   }
-  
-  #mainnav ul {
-    display: block;
-    margin: 0;
-    text-align: center;
-  }
-  
-  #mainnav ul li {
-    margin: 0;
-    list-style: none;
+
+  #logo {
     display: inline-block;
-  }
-  
-  #mainnav ul li a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    padding: .9em 1.5em .8em 1.5em;
-  }
-  
-  #mainnav ul li a:hover {
-    color: #000;
-    background: #aaa;
+    height: 55px;
+    width: 55px;
+    vertical-align: middle;
+   
   }
 
-  #about {
-    background-color: #feffe4 !important;
+  h1, h2 {
+    font-family: 'Prata', serif;
   }
+ 
+  .h100 {
+    height: 90%;
+  }
+  
+  
+  .overlay,
+  .parallax-text {
+    /*font-size: 80px;*/
+    
+    letter-spacing: .11em;
+    font-size: 2.0em;
+    text-rendering: optimizeLegibility;
+   
+  }
+  
+  
+  
+  
+  
+  
+  @media (min-width: 993px) {
+    
+    .overlay,
+    .parallax-text {
+      /*font-size: 80px;*/
+      
+      letter-spacing: .11em;
+      font-size: 5em;
+      text-rendering: optimizeLegibility;
+    }
+  
+  }
+  
+  .overlay {
+    width: 100%;
+  }
+  
+  
+  
 
   
 
-.footer { /*torn paper border*/
-    height:100px;
-    position:relative;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-size:cover;
-    opacity:0.8;
-    border-style: solid; 
-    border-width: 40px 40px 40px; 
-       -moz-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
-    -webkit-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
-         -o-border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat; 
-            border-image: url('http://news.unchealthcare.org/images/backgrounds/paper.jpg') 80 80 80 repeat;
+
+ 
+  
+
+footer, .btn { 
+  background-color: #0F2645 !important;  
+  
 }
-.bg-semitransparent { background-color: rgba(60,60,60,0.6); }
