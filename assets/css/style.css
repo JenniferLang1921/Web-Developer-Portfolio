@@ -35,8 +35,22 @@ font-family: 'Prata', serif;
    
   }
 
-  h1, h2 {
+  h1, h2, h3, h6 {
     font-family: 'Prata', serif;
+  }
+
+  #blue-line {
+  border-bottom: .1em solid #0079FA; 
+}
+  
+
+  i {
+    font-size: 2em;
+    letter-spacing: .5em;   
+  }
+
+  i:hover {
+    color: #0079FA;
   }
  
   .h100 {
@@ -53,10 +67,6 @@ font-family: 'Prata', serif;
     text-rendering: optimizeLegibility;
    
   }
-  
-  
-  
-  
   
   
   @media (min-width: 993px) {
