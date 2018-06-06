@@ -59,7 +59,7 @@ font-family: 'Prata', serif;
    margin-right: 80px;
  }
  #webdev {
-   color: #0079FA;
+   color: #0079FA !important;
   
    
 
@@ -81,12 +81,12 @@ font-family: 'Prata', serif;
    
  
    i {
-     font-size: 2em;
+     font-size: 2em !important;
      letter-spacing: .5em;   
    }
  
    i:hover {
-     color: #0079FA;
+     color: #0079FA !important;
    }
   
    .h100 {
@@ -104,13 +104,13 @@ padding-top: 50px;
    
    
   .resume-container {
-    background-color: #F5F5F5;
+    background-color: #F5F5F5 !important;
     margin-bottom: 50px;
   } 
   
   #resume {
     padding: 40px;
-    background-color: #F5F5F5;
+    background-color: #F5F5F5 !important;
     margin-bottom: 50px;
   }
 
@@ -128,8 +128,8 @@ padding-top: 50px;
   }
 
   #skill_icon {
-    color: #C2C2C2;
-    font-size: 4em;
+    color: #C2C2C2 !important;
+    font-size: 4em !important;
   }
    
  
