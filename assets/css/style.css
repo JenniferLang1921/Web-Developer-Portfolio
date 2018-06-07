@@ -7,7 +7,6 @@
 green and brown in photos
 */
 /*GOOGLE FONTS
-font-family: 'Alfa Slab One', cursive;
 font-family: 'Prata', serif;
 */
 
@@ -51,7 +50,7 @@ font-family: 'Prata', serif;
  .name {
    margin-top: 150px;
    margin-right: 25px;
-   font-family: 'Alfa Slab One', cursive;
+   font-family: 'Prata', serif;
  }
  
  #giphy {
@@ -75,7 +74,8 @@ font-family: 'Prata', serif;
   color:#C2C2C2;
   font-size: 2em;
   letter-spacing: .2em; 
-  background-color: black;
+  background-color: rgba(15, 38, 69, 0.6);
+  padding: 20px;
 
  }
    
@@ -128,8 +128,8 @@ padding-top: 50px;
   }
 
   #skill_icon {
-    color: #C2C2C2 !important;
-    font-size: 4em !important;
+    color: #0F2645 !important;
+    font-size: 3em !important;
   }
    
  
