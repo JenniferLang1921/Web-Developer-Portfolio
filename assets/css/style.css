@@ -58,7 +58,7 @@ font-family: 'Prata', serif;
    margin-right: 80px;
  }
  #webdev {
-   color: #0079FA !important;
+   color: #0F2645 !important;
   
    
 
@@ -74,7 +74,7 @@ font-family: 'Prata', serif;
   color:#C2C2C2;
   font-size: 2em;
   letter-spacing: .2em; 
-  background-color: rgba(15, 38, 69, 0.6);
+  background-color: rgba(15, 38, 69, 0.6) !important;
   padding: 20px;
 
  }
