@@ -102,6 +102,10 @@ padding-top: 50px;
      margin-bottom: 100px;
    }
    
+   img {
+     height: 250px;
+     width: 300px;
+   }
    
   .resume-container {
     background-color: #F5F5F5 !important;
