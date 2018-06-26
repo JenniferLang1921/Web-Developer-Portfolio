@@ -148,3 +148,32 @@ padding-top: 50px;
 #contact_info {
   padding: 5px;
 }
+
+
+
+/*media queries*/
+/*desktop*/
+@media screen and (max-width: 980px) and (min-width: 768px) {
+  img {
+     
+    width: 150px;
+    height: 150px;
+
+}
+}
+ 
+
+
+/*phone*/
+@media screen and (max-width: 376px) and (min-width: 0px) {
+  
+     
+  li { 
+   font-size: 12px;
+}
+#skill_icon {
+  font-size: 1em !important;
+}
+
+
+}
