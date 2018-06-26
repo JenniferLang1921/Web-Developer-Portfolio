@@ -162,14 +162,12 @@ padding-top: 50px;
 }
 }
  
-
-
-/*phone*/
-@media screen and (max-width: 376px) and (min-width: 0px) {
+/* wide phone*/
+@media screen and (max-width: 415px) and (min-width: 0px) {
   
      
-  li { 
-   font-size: 12px;
+  #skillbox { 
+   font-size: 8px !important;
 }
 #skill_icon {
   font-size: 1em !important;
@@ -177,3 +175,5 @@ padding-top: 50px;
 
 
 }
+
+
