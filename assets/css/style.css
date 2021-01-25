@@ -29,9 +29,10 @@ font-family: 'Prata', serif;
  
    #logo {
      display: inline-block;
-     height: 55px;
-     width: 55px;
+     height: 45px;
+     width: 45px;
      vertical-align: middle;
+     margin-left: 5px;
     
    }
  
