@@ -4,13 +4,13 @@
 <head>
 
   <!-- Favicon -->
-  <link rel="icon" href="assets/images/JL-logo.png">
+  <link rel="icon" href="assets/images/Jennifer_Lang_Logo2-01.svg">
   <title>Jennifer Lang | Web Developer</title>
   <meta charset="utf-8">
   <!-- View Port Size -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Materialize - Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- Materialize - Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Custom CSS -->
@@ -34,7 +34,7 @@
 
 
         <a href="index.html" class="brand-logo">
-          <img class="responsive-img" id="logo" src="assets/images/Jennifer_Lang_Logo2-01.svg" alt="logo"/>
+          <img class="responsive-img" id="logo" src="assets/images/Jennifer_Lang_Logo2-01.svg" alt="logo" />
         </a>
 
         <a href="#" data-target="mobile-demo" class="sidenav-trigger">
@@ -54,6 +54,9 @@
             <a href="#skills" class="black-text">Skills</a>
           </li>
           <li>
+            <a href="https://codegirlblue.wordpress.com/" class="black-text">Blog</a>
+          </li>
+          <li>
             <a href="#contact" class="black-text">Contact</a>
           </li>
         </ul>
@@ -67,14 +70,13 @@
 
 
     <h1 class="name white-text overlay right-align">
-      <span id="blue-line">
-        Jennifer Lang
+      <span id="blue-line">Jennifer Lang</span>
+    </h1><br>
+    <h1 class="nameDescription white-text overlay right-align"><span class="typewriter">Web Developer</span></h1>
 
 
-       
 
-      </span>
-    </h1>
+
 
 
     <div class="parallax">
@@ -85,11 +87,7 @@
 
   </div>
 
-  <div class="container">
-    <h1 id="webdev">
-      <strong>Full Stack Web Developer</strong>
-    </h1>
-  </div>
+
   <!--About-->
   <div class="container white" id="about">
     <div class="row">
@@ -99,28 +97,29 @@
       </h3>
       <p class="grey-text text-darken-3 lighten-3">
 
-        <div class="col s6">
+      <div class="col s6">
 
 
-          <p class="description">Hello, my name is Jennifer Lang. I create simple, beautiful, and functional websites.
-            When I'm not coding, you'll
-            find me painting, reading a book, or exploring the great outdoors.</p>
+        <p class="description">Hello, my name is Jennifer Lang. I am a full stack web developer. I create simple,
+          beautiful, and functional websites.
+          When I'm not coding, you'll
+          find me painting, reading a book, or exploring the great outdoors.</p>
+
+
+
+      </div>
+
+      <div class="col s6">
+        <div class="right">
+
+          <img class="profile responsive-img circle right" src="assets/images/jenniferlang2.png" alt="Jennifer Lang"
+            width="300" height="300">
+
 
 
 
         </div>
-
-        <div class="col s6">
-          <div class="right">
-
-            <img class="profile responsive-img circle right" src="assets/images/jenniferlang2.png" alt="Jennifer Lang"
-              width="300" height="300">
-
-
-
-
-          </div>
-        </div>
+      </div>
 
 
     </div>
@@ -156,20 +155,24 @@
   <!--Portfolio-->
 
   <div class="container" id="portfolio">
+
+
+
+    <h3>
+      <span id="blue-line">Portfolio</span>
+    </h3>
+
+    <button type="button" value="react" class="button waves-effect waves-dark btn-small">React</button><button type="button" value="vue"
+      class="button waves-effect waves-dark btn-small">Vue</button><button type="button" value="jquery" class="button waves-effect waves-dark btn-small">jQuery</button><button
+      type="button" value="wordpress" class="button waves-effect waves-dark btn-small">Wordpress</button><button type="button" value="mysql"
+      class="button btn-small">mySQL</button><button type="button" value="mongodb" class="button waves-effect waves-dark btn-small">MongoDB</button>
     <div class="row">
-
-
-      <h3>
-        <span id="blue-line">Portfolio</span>
-      </h3>
-
-
-
-       <!--Vue.js Todo List-->
-       <div class="col s12 m12 l4">
+      <!--Vue.js Todo List-->
+      <div class="col s4 m4 l4 vue websiteHide">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img id="portfolio-image" class="activator" src="assets/images/Vue.js_todo_list.png" alt="Vue.js to do list website">
+            <img id="portfolio-image" class="activator" src="assets/images/Vue.js_todo_list.png"
+              alt="Vue.js to do list website">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">To Do List
@@ -180,7 +183,7 @@
             </p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Bee-Z St
+            <span class="card-title grey-text text-darken-4">To Do List
               <i class="material-icons right">close</i>
             </span>
             <p>Front-End: Vue.js</p>
@@ -195,7 +198,7 @@
       </div>
 
       <!--Bee-Z St-->
-      <div class="col s12 m12 l4">
+      <div class="col s4 m4 l4 react mongodb websiteHide">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img id="portfolio-image" class="activator" src="assets/images/Beezst3.png" alt="Bee-Z St website">
@@ -215,7 +218,7 @@
             <p>Front-End: React-dnd, react-dnd-html5-backend, React.js, ES6, JSX, Materialize, Javascript</p>
 
             <p>Back-End: MongoDB, Passport Authentication, Nodemon, Webpack, Babel, Express, ORM file structure, Axios,
-              Mongoose></p>
+              Mongoose</p>
 
             <a class="right" href="https://github.com/JenniferLang1921/Bee-Z_Street">
               <i class="fab fa-github"></i>
@@ -224,7 +227,7 @@
         </div>
       </div>
 
-    <!-- Ted Talks Website
+      <!-- Ted Talks Website
 
       <div class="col s12 m12 l4">
         <div class="card hoverable">
@@ -255,10 +258,11 @@
       -->
 
       <!--Binge Watcher Website-->
-      <div class="col s12 m12 l4">
+      <div class="col s4 m4 l4 mysql jquery websiteHide">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img id="portfolio-image" class="activator" src="assets/images/binge-watcher.png" alt="Binge Watcher Website">
+            <img id="portfolio-image" class="activator" src="assets/images/binge-watcher.png"
+              alt="Binge Watcher Website">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Binge Watcher
@@ -282,95 +286,97 @@
           </div>
         </div>
       </div>
+   
+
+
+
+
+
+    <!--Music Concierge Website-->
+    <div class="col s12 m12 l4 jQuery websiteHide">
+      <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img id="portfolio-image" class="activator" src="assets/images/musicconcierge.png"
+            alt="music concierge website">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Music Concierge
+            <i class="material-icons right">more_vert</i>
+          </span>
+          <p>
+            <a href="https://jenniferlang1921.github.io/Music-Concierge/">website</a>
+          </p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Music Concierge
+            <i class="material-icons right">close</i>
+          </span>
+          <p>Tech Used: Jquery, API keys, Bootstrap</p>
+          <a class="right" href="https://github.com/JenniferLang1921/Music-Concierge">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="row">
 
 
 
-      <!--Music Concierge Website-->
-      <div class="col s12 m12 l4">
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img id="portfolio-image" class="activator" src="assets/images/musicconcierge.png" alt="music concierge website">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Music Concierge
-              <i class="material-icons right">more_vert</i>
-            </span>
-            <p>
-              <a href="https://jenniferlang1921.github.io/Music-Concierge/">website</a>
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Music Concierge
-              <i class="material-icons right">close</i>
-            </span>
-            <p>Tech Used: Jquery, API keys, Bootstrap</p>
-            <a class="right" href="https://github.com/JenniferLang1921/Music-Concierge">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
+
+    <!--Trivia Game Website-->
+    <div class="col s12 m12 l4 jquery websiteHide">
+      <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img id="portfolio-image" class="activator" src="assets/images/triviagame.png" alt="trivia pursuit website">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Trivia Game
+            <i class="material-icons right">more_vert</i>
+          </span>
+          <p>
+            <a href="https://jenniferlang1921.github.io/TriviaGame/">website</a>
+          </p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Trivia Game
+            <i class="material-icons right">close</i>
+          </span>
+          <p>Technologies Used: Javascript, Jquery, CSS, Bootstrap, HTML5</p>
+          <a class="right" href="https://github.com/JenniferLang1921/TriviaGame">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
       </div>
-
-
-
-
-      <!--Trivia Game Website-->
-      <div class="col s12 m12 l4">
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img id="portfolio-image" class="activator" src="assets/images/triviagame.png" alt="trivia pursuit website">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Trivia Game
-              <i class="material-icons right">more_vert</i>
-            </span>
-            <p>
-              <a href="https://jenniferlang1921.github.io/TriviaGame/">website</a>
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Trivia Game
-              <i class="material-icons right">close</i>
-            </span>
-            <p>Technologies Used: Javascript, Jquery, CSS, Bootstrap, HTML5</p>
-            <a class="right" href="https://github.com/JenniferLang1921/TriviaGame">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!--Click Game Website-->
-      <div class="col s12 m12 l4">
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img id="portfolio-image" class="activator" src="assets\images\clickgame.png" alt="click game website">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Click Game
-              <i class="material-icons right">more_vert</i>
-            </span>
-            <p>
-              <a href="https://jenniferlang1921.github.io/click-game/">website</a>
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Click Game
-              <i class="material-icons right">close</i>
-            </span>
-
-            <p>Backend Tech: Babel, Webpack</p>
-            <p> Frontend Tech: React.js, ES6, JSX, Bootstrap, HTML5</p>
-            <a class="right" href="https://github.com/JenniferLang1921/click-game">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
     </div>
+
+    <!--Click Game Website-->
+    <div class="col s12 m12 l4 react websiteHide">
+      <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img id="portfolio-image" class="activator" src="assets\images\clickgame.png" alt="click game website">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Click Game
+            <i class="material-icons right">more_vert</i>
+          </span>
+          <p>
+            <a href="https://jenniferlang1921.github.io/click-game/">website</a>
+          </p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Click Game
+            <i class="material-icons right">close</i>
+          </span>
+
+          <p>Backend Tech: Babel, Webpack</p>
+          <p> Frontend Tech: React.js, ES6, JSX, Bootstrap, HTML5</p>
+          <a class="right" href="https://github.com/JenniferLang1921/click-game">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </div>
 
 
@@ -393,16 +399,21 @@
 
         <h4>Experience</h4>
         <p><b>Web Programmer | Agile Technology Solutions, University of Kansas | Aug 2018 to Current</b>
-          <br>Drupal, Wordpress, Marketing, Adobe Illustrator, Educational Technology, Graphic Design, jQuery, HTML, CSS, Bootstrap</p>
+          <br>Drupal, Wordpress, Marketing, Adobe Illustrator, Educational Technology, Graphic Design, jQuery, HTML,
+          CSS, Bootstrap
+        </p>
 
 
-        <p><b>Administrative Specialist | KS Insurance Department and KS Securities Commissioner | Jan 2017 to August 2018</b>
+        <p><b>Administrative Specialist | KS Insurance Department and KS Securities Commissioner | Jan 2017 to August
+            2018</b>
           <br>Finance Writer, Social Media, Graphic Design, Event Planning, Investor Education, Editing, Public
           Speaking, Event
-          Planning, Adobe Illustrator, Series 63 Finance Exam</p>
+          Planning, Adobe Illustrator, Series 63 Finance Exam
+        </p>
 
         <p><b>Real Estate Marketing | At Home Kansas | 2007 to 2009</b>
-          <br>Online marketing, Blogging, Social media, Website updates, HTML, SEO Marketing, Background Searches</p>
+          <br>Online marketing, Blogging, Social media, Website updates, HTML, SEO Marketing, Background Searches
+        </p>
 
         <p>Other Jobs: Business Owner, Accountant, Music Teacher, Musical Director, Credit Bureau Manager/Investigator
         </p>
@@ -494,30 +505,36 @@
         <ul>
 
           <li id="contact_info" class="grey-text text-lighten-4">
-            <i class="fas fa-user"></i>Jennifer Lang</li>
+            <i class="fas fa-user"></i>Jennifer Lang
+          </li>
 
           <li id="contact_info" class="grey-text text-lighten-4">
-            <i class="fas fa-phone"></i>785-393-5613</li>
+            <i class="fas fa-phone"></i>785-393-5613
+          </li>
 
-          
-            <li id="contact_info" class="grey-text text-lighten-4">
-              <a href="mailto:jenniferlang1921@gmail.com">
-                <i class="fas fa-envelope"></i>jenniferlang1921@gmail.com</li>
-            </a>
 
-            <li id="contact_info" class="grey-text text-lighten-4">
-              <i class="fab fa-fort-awesome"></i>Lawrence, Ks</li>
+          <li id="contact_info" class="grey-text text-lighten-4">
+            <a href="mailto:jenniferlang1921@gmail.com">
+              <i class="fas fa-envelope"></i>jenniferlang1921@gmail.com
+          </li>
+          </a>
+
+          <li id="contact_info" class="grey-text text-lighten-4">
+            <i class="fab fa-fort-awesome"></i>Lawrence, Ks
+          </li>
         </ul>
 
       </div>
 
     </div>
-    
+
     <div class="footer-copyright">
       <div class="container">
         <div class="col s6">
-         
-          © Copyright <script>document.write(new Date().getFullYear())</script> <a href="https://jenniferlangwebdesign.com/">Jennifer Lang Web Design</a>
+
+          © Copyright
+          <script>document.write(new Date().getFullYear())</script> <a href="https://jenniferlangwebdesign.com/">
+            Jennifer Lang Web Design</a>
           <div class="col s6">
             <a class="grey-text text-lighten-4 right" href="mailto:jenniferlang1921@gmail.com">
               <i class="fas fa-envelope"></i>
@@ -537,8 +554,7 @@
               <i class="fab fa-behance"></i>
             </a>
             <a class="grey-text text-lighten-4 right"
-              href="https://drive.google.com/file/d/1QGuJXIDu4fDyuTLeCYiR6dsblKCEuOAY/view?usp=sharing"
-              target="_blank">
+              href="https://drive.google.com/file/d/1QGuJXIDu4fDyuTLeCYiR6dsblKCEuOAY/view?usp=sharing" target="_blank">
               <i class="far fa-address-card"></i>
             </a>
           </div>
@@ -552,10 +568,14 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
-  <!-- Materialize - Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
-  <!-- Basic Page JavaScript for Repsonsiveness -->
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- JavaScript-->
   <script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>
