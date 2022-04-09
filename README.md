@@ -2,7 +2,7 @@
 
 [Jennifer Lang Portfolio](http://jenniferlang1921.com) 
 
-Technologies used: Materialize
+Technologies used: Materialize, jQuery, html, css
 
 
 
